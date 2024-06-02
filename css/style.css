@@ -1,4 +1,4 @@
--*{
+*{
     margin: 0;
     padding: 0;
     outline: 0;
@@ -83,10 +83,7 @@ color: #ffffff;
 }
 
 
-
-/* ============== nav bar start ================ */
-
-
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .navbar{
     padding: 0;
@@ -154,3 +151,53 @@ color: #ffffff;
 }
 
 /* ============== nav bar end ================ */
+
+/* ================ banner part start ============= */
+
+#banner_part{
+    background: url(../images/banner_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 133px 0 0;
+}
+#banner_part img{
+    margin-left: -46px;
+    width: 100%;
+}
+
+#banner_part .container .banner_details{
+    text-align: center;
+    padding: 146px 0 145px 0;
+}
+
+#banner_part .container  h1{
+    color: #8a5e3b;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 61px;
+    line-height: 54px;
+    text-transform: uppercase;
+}
+
+#banner_part .container  h2{
+    color: #d50a51;
+    font-weight: 400;
+    font-family: 'Great Vibes', cursive;
+    font-size: 84px;
+    line-height: 54px;
+    margin-top: -5px;
+}
+
+#banner_part .container p{
+    color: #444444;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 27px;
+    margin-bottom: 60px;
+}
+
+/* ============== Banner part end ================ */
+
