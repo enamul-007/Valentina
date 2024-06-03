@@ -200,4 +200,21 @@ color: #ffffff;
 }
 
 /* ============== Banner part end ================ */
+/* ================ History part start ============= */
 
+#history_part {
+    padding-top: 100px;
+    padding-bottom: 92px;
+}
+
+#history_part .container p{
+    color: #444444;
+    width: 570px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    word-spacing: 0;
+}
+
+/* ============== History part end ================ */
