@@ -218,3 +218,44 @@ color: #ffffff;
 }
 
 /* ============== History part end ================ */
+
+/* ================ gift part start ============= */
+
+#gift_part {
+    background: url(../images/gift_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+
+#gift_part .text{
+    padding-left: 100px;
+}
+
+#gift_part .text p{
+    color: #444444;
+    width: 570px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    word-spacing: 0;
+}
+
+#gift_part .text .my_btn{
+    margin-top: 30px;
+}
+
+#gift_part .gift_image{
+    position: relative;
+    height: 100%;
+}
+
+#gift_part .gift_image img{
+    position: absolute;
+    top: -225px;
+    left: -154px;
+}
+
+/* ================ gift part end ============= */
