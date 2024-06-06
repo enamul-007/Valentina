@@ -259,3 +259,46 @@ color: #ffffff;
 }
 
 /* ================ gift part end ============= */
+
+/* ================ ticket part start ============= */
+
+#ticket_part{
+    padding: 123px 0 160px;
+}
+
+#ticket_part .ticket_image img{
+    margin-left: -85px;
+    width: 100%;
+}
+
+#ticket_part .title{
+    text-align: right;
+    padding-right: 55px !important;
+}
+
+#ticket_part .title img{
+    left: 100%;
+    transform: translateX(-100%);
+}
+
+#ticket_part .text{
+    text-align: right;
+}
+
+#ticket_part .text p{
+    color: #444444;
+    width: 570px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    word-spacing: 0;
+}
+
+#ticket_part .text .my_btn{
+    margin-top: 30px;
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+/* ================ ticket part end ============= */
