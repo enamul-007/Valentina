@@ -302,3 +302,62 @@ color: #ffffff;
 }
 
 /* ================ ticket part end ============= */
+
+/* ================ offer part start ============= */
+
+#offer_part{
+    background: url(../images/offer_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 30px;
+}
+
+#offer_part .container .row .col-lg-4:nth-child(2) .music:first-child{
+    margin-bottom: 30px;
+}
+
+#offer_part .container .row .col-lg-4:nth-child(3) .music:first-child{
+    margin-bottom: 30px;
+}
+
+#offer_part .music{
+    padding: 30px 34px 30px 30px;
+    background: transparent;
+    border-right: 3px solid transparent;
+    transition: all linear .4s;
+}
+
+#offer_part .music:hover{
+    background: #f1f1f1;
+    border-right-color: #d50a51;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.35);
+-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.35);
+-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.35);
+}
+
+#offer_part .music .image{
+    display: flex;
+    align-items: flex-end;
+    column-gap: 21px ;
+    margin-bottom: 15px;
+}
+
+#offer_part .music h4{
+    color: #d50a51;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#offer_part p{
+    color: #444444;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* ================ offer part end ============= */
+
